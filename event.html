@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>upcoming events</title>
+  <link rel="icons" src="img/logo.jpg">
+  <style>
+    body{
+      height: 100%;
+      width: 100%;
+      position: absolute; 
+      background-image: url("img/party.jpg"),linear-gradient(rgba(44, 16, 109, 0.9),rgba(57, 135, 207, 0.486));
+      background-repeat: no-repeat;
+      background-size: cover;    
+    }
+    .head{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bolder;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .head:hover{
+      color: rgb(238, 8, 85);
+    }
+    .event-img{
+      border-radius: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .middle{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 50px;
+      }
+      span{
+        font-family : 'Times New Roman', Times, serif ;
+      }
+      #w{
+        color:rgb(62, 62, 231);
+        font-size:60px;
+      }
+      #eb{
+        color: rgb(18, 175, 243);
+        font-size: 60px;
+      }
+      #co{
+        color: yellow;
+        font-size: 80px
+      }
+      #de{
+        color: rgb(233, 7, 45);
+        font-size: 60px;
+      }
+      .concul{
+        margin-top: 5px;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgba(185, 1, 209, 0.822);
+      }
+      .free{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(209, 3, 147);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      }
+      .time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .day,.hour,.min,.sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin-top: 50px;
+        border-width: 2px;
+        border-color: beige;
+        border-style: solid;
+        height: 100px;
+        width: 100px;
+        color: rgb(138, 247, 247);
+        background-color: rgb(32, 32, 32);
+        box-shadow: 8px 8px 10px 10px rgba(177, 251, 255, 0.6);
+      }
+      .button{
+        text-align: center;
+        margin-top: 40px;
+      }
+      button{
+        padding: 10px 50px;
+        background-color: rgb(32, 32, 32);
+        box-shadow: 0 6px 6px rgba(177, 251, 255, 0.6);       
+        color: rgb(138, 247, 247); 
+        font-size: 20px;
+        border-radius: 10px;
+        transition: 1s;
+      }
+      button:hover{
+        opacity: 0.9;
+        color: rgb(173, 86, 199);
+      }
+      button:active{
+        opacity: 0.7;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="head">
+    <div style="display: flex;
+    flex: 1;">
+      <img src="img/logo.jpg" alt="error" class="event-img" height="60px">
+    </div>
+    <div style="width: 100px;">
+      HOME
+    </div>
+    <div  style="width: 100px;">
+      ABOUT US
+    </div>
+    <div  style="width: 100px;">
+      SERVICES
+    </div>
+    <div  style="width: 100px;">
+       WORK
+    </div>
+    <div  style="width: 100px;">
+       BLOG
+    </div> 
+    <div  style="width: 100px;">
+       CONTACT
+    </div>
+  </div>
+  <div class="middle">
+   <span id="w">CGAC</span><span id="eb">  Arts  </span><span id="co">Coll</span><span id="de">ege</span>    
+  </div>
+  <div class="concul">
+    Don't miss any of your important events.Here are the
+    important events you have regisiter for!
+  </div>
+  <div class="free">Free Entry | Free Food | Pets are not Allowed</div>
+  <div class="time">
+    <div class="day">
+      Days<br>10
+    </div>
+    <div class="hour">
+      Hours<br>240</div>
+    <div class="min">
+      Minutes<br>14400</div>
+    <div class="sec"> 
+      Seconds<br>864000</div>
+  </div>
+  <div class="button">
+   <a href="forms1.html" target="_blank">
+    <button>Register Now</button>
+  </a> 
+  </div>
+</body>
+</html>
